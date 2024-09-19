@@ -178,6 +178,29 @@ footer{
     overflow: hidden;
 }
 
+.swiper-button-next, .swiper-button-prev{
+    margin-top: 64px;
+    z-index: 87;
+    color: rgb(221, 255, 127);
+}
+.swiper-pagination-bullet-active {
+    background: var(--swiper-pagination-color, rgb(221, 255, 127));
+}
+#hero-img-3 {
+    animation: rotate 18s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
 
 
 /* Responsive */
